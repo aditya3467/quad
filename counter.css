@@ -48,7 +48,7 @@ h2,span{
 
 
 
-@media (max-width: 900px){
+@media (max-width: 580px){
 .row{
     transform: translate(-30%,-50%);
 }
@@ -58,5 +58,8 @@ h2,span{
         display: block;
         width: 80rem;
         margin: auto;
+    }
+    .content1{
+        flex-direction: column;
     }
 }
