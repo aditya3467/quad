@@ -1,0 +1,151 @@
+@media (max-width: 900px)
+{
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    
+    .navBar{
+
+        text-align: center;
+        width: 80rem;
+        font-size: 0.8rem;
+    }
+    .logo{
+        
+        
+        /* margin-top: 85px; */
+        /* margin: 12px 0px; */
+        height: 5rem;
+        margin-top: 25px;
+        margin-left: -10px;
+        /* margin-left: 1px; */
+        
+        width: 5rem;
+        /* width: 25%; */
+        /* z-index: 1; */
+    }
+    .slider{
+        margin-left: 10px;
+        height: 25px;
+        width: 3rem;
+        z-index: 2;
+        display: none;
+        
+        /* background: url('./slider.jpg') no-repeat center center/cover ; */
+        
+    
+    
+    }
+    .logo p{
+        margin-top: 4.3rem;
+        margin-left: -25px;
+    }
+
+    .navBar ul {
+        width: 75%;
+        margin: 12px 48px;
+        display: none;
+    }
+
+    .emergency{
+        width: 1rem;
+        margin-left: 10px;
+    }
+    .login{
+        display: none;
+    }
+
+    .news{
+        margin-top: 5rem;
+        width: 80rem;
+        /* height: 3rem;
+        border: solid 2px red; */
+    }
+
+  .content1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80rem;
+    }
+
+    .content1::before{
+    
+        width: 80rem;
+        
+    
+    }
+
+    .display1{
+        display: flex;
+        /* border: 2px solid red; */
+        width: 80rem;
+        height: 900px;
+        margin: auto;
+    }
+    .display2{
+        display: flex;
+        /* border: 2px solid red; */
+        width: 80rem;
+        height: 900px;
+        margin: auto;
+    }
+    .hero{
+        display: block;
+        width: 80rem;
+        margin: auto;
+    }
+
+    .content2{
+        width: 80rem;
+    }
+    .content2::before{
+       width: 80rem;
+    
+    }
+
+    .important-links{
+        height: 30rem;
+        width: 80rem;
+    
+    }
+    .slider{
+        display: block;
+    }
+
+    .dropbtn{
+        font-family: sans-serif;
+        font-size: 25px;
+        color: #818181;
+    }
+    .dropdown:hover{
+        background-color: transparent;
+    }
+    
+    .dropdown .dropbtn{
+        font-family: sans-serif;
+        font-size: 25px;
+        color: #818181;
+        
+
+    }
+    .dropdown-content{
+        left: 20%;
+    }
+    
+
+    .navBar li:hover{
+        background-color: transparent;
+    }
+}
